@@ -64,6 +64,10 @@ main {
   background: #F4E6EC; color: var(--muted);
 }
 .tile.match { background: var(--rose); color: #fff; }
+.tile.gold { background: var(--gold); color: var(--rose-deep); }
+
+/* A second game on the home page */
+.game { margin-top: 56px; padding-top: 40px; border-top: 1px solid var(--line); }
 
 .hero h1 { font-size: clamp(40px, 8vw, 64px); margin: 0 0 8px; }
 .hero .tagline { color: #B07A00; font-weight: 600; font-size: 20px; margin: 0 0 20px; }
