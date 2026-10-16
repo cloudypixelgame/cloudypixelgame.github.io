@@ -1,6 +1,7 @@
 # Cloudy Pixel Game - authorized ad sellers for all our apps
 google.com, pub-7990104543027290, DIRECT, f08c47fec0942fa0
 vungle.com, 6acbd231dc021dbec1ed6c27, DIRECT, c107d686becd2d77
+facebook.com, 1059170413588080, DIRECT, c3e20eee3f780d68
 openx.com, 563905670, RESELLER, 6a698e2ec38604c6
 spinx.biz, 1373698903, RESELLER, 9f2711e9aaa9f992
 pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
