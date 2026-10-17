@@ -54,18 +54,6 @@ main {
   padding: 40px 24px 64px;
 }
 
-/* Home page hero: a row of number tiles with the matched pair lit */
-.tiles { display: flex; gap: 10px; margin: 8px 0 28px; flex-wrap: wrap; }
-.tile {
-  width: 56px; height: 56px;
-  border-radius: 14px;
-  display: grid; place-items: center;
-  font-family: "Fredoka", sans-serif; font-weight: 600; font-size: 28px;
-  background: #F4E6EC; color: var(--muted);
-}
-.tile.match { background: var(--rose); color: #fff; }
-.tile.gold { background: var(--gold); color: var(--rose-deep); }
-
 /* A second game on the home page */
 .game { margin-top: 56px; padding-top: 40px; border-top: 1px solid var(--line); }
 
@@ -118,7 +106,6 @@ footer a { margin-right: 18px; }
 @media (max-width: 520px) {
   body { font-size: 16px; }
   main { padding-top: 28px; }
-  .tile { width: 46px; height: 46px; font-size: 23px; border-radius: 12px; }
 }
 
 /* Contact page: the main call to action, a chunky button like the games' own */
@@ -192,7 +179,7 @@ a.status:hover { color: #fff; background: #3A1428; }
 .button-quiet { background: #fff; color: var(--rose-deep); box-shadow: 0 5px 0 var(--line), 0 0 0 2px var(--line) inset; }
 .button-quiet:hover { color: var(--rose-deep); box-shadow: 0 7px 0 var(--line), 0 0 0 2px var(--line) inset; }
 .button-quiet:active { box-shadow: 0 1px 0 var(--line), 0 0 0 2px var(--line) inset; }
-.section-title { font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; scroll-margin-top: 16px; }
+.section-title { font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 0 0 14px; scroll-margin-top: 16px; }
 @media (max-width: 520px) {
   .intro .lead { font-size: 17px; }
   .intro-actions .button { flex: 1 1 100%; }
