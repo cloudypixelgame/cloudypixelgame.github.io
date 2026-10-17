@@ -120,3 +120,48 @@ footer a { margin-right: 18px; }
   main { padding-top: 28px; }
   .tile { width: 46px; height: 46px; font-size: 23px; border-radius: 12px; }
 }
+
+/* Contact page: the main call to action, a chunky button like the games' own */
+.cta { margin: 0 0 8px; }
+.mail-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-width: 280px;
+  padding: 16px 36px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #FF6A92 0%, var(--rose) 55%, #EE2F64 100%);
+  color: #fff;
+  font-family: "Fredoka", "Plus Jakarta Sans", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(120, 10, 45, 0.35);
+  box-shadow: 0 6px 0 #B5164A, 0 12px 24px rgba(251, 62, 114, 0.35);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease;
+}
+.mail-button svg { flex: none; }
+.mail-button:hover {
+  color: #fff;
+  filter: brightness(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 #B5164A, 0 16px 28px rgba(251, 62, 114, 0.4);
+}
+.mail-button:active {
+  transform: translateY(5px);
+  box-shadow: 0 1px 0 #B5164A, 0 4px 10px rgba(251, 62, 114, 0.3);
+}
+.mail-button:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; border-radius: 18px; }
+.cta-note { color: var(--muted); font-size: 15px; margin: 18px 0 0; overflow-wrap: anywhere; }
+.cta-note strong { color: var(--ink); font-weight: 600; white-space: nowrap; }
+@media (max-width: 520px) {
+  .mail-button { display: flex; width: 100%; min-width: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mail-button { transition: none; }
+}
+a.status { text-decoration: none; }
+a.status:hover { color: #fff; background: #3A1428; }
